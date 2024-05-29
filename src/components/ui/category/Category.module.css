@@ -1,0 +1,9 @@
+.cover {
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit */
+  object-fit: cover;
+  height: 70% !important;
+}
+
+.h400 {
+  height: 400px;
+}

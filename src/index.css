@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+/* глобальные стили */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.offer {
+  background-color: #127812;
+  background-image: url('/public/images/hands.png');
+  background-repeat: no-repeat;
+  background-position: 8% 100%;
+  background-size: 63%;
+  border-radius: 0.7em;
+  color: white;
+  padding: 2em;
+  height: 415px;
+}
+
+.home-poster {
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)), url('/public/images/home.jpg');
+  height: 600px;
+  background-position: center;
+  color: white;
+}
+
+.home-poster h1 {
+  font-size: calc(4.5rem + 1.5vw);
+  font-weight: bold;
+}
+
+.responsive {
+  aspect-ratio: 22 / 9;
+  width: 100%;
+}
+
+:root {
+  --bs-font-sans-serif: 'Montserrat', sans-serif !important;
+  --c-green: #393;
+  --c-dark: #282828;
+  --c-white: white;
+  --c-light: #f1f3f4;
+  --form-check-input-width: 2em;
+}
+
+.btn-offer {
+  --bs-btn-font-weight: 600 !important;
+  --bs-btn-color: var(--c-dark) !important;
+  --bs-btn-bg: var(--c-white) !important;
+  --bs-btn-border-color: var(--c-white) !important;
+  --bs-btn-hover-color: var(--c-white);
+  --bs-btn-hover-bg: var(--c-dark);
+  --bs-btn-active-color: var(--c-green);
+  --bs-btn-active-border-color: var(--c-light);
+  --bs-btn-active-bg: var(--c-light);
+}
+
+.btn-offer-done {
+  --bs-btn-color: var(--c-green) !important;
+  --bs-btn-bg: var(--c-light) !important;
+  --bs-btn-border-color: var(--c-light) !important;
+}
+
+.btn-card {
+  --bs-btn-font-weight: 600 !important;
+  --bs-btn-color: var(--c-white) !important;
+  --bs-btn-bg: var(--c-green) !important;
+  --bs-btn-border-color: var(--c-green) !important;
+  --bs-btn-hover-color: var(--c-white);
+  --bs-btn-hover-bg: var(--c-dark);
+  --bs-btn-active-color: var(--c-dark);
+  --bs-btn-active-border-color: var(--c-dark);
+  --bs-btn-active-bg: var(--c-white);
+}
+
+.btn-card-done {
+  --bs-btn-color: var(--c-dark) !important;
+  --bs-btn-bg: var(--c-white) !important;
+  --bs-btn-border-color: var(--c-dark) !important;
+}
+
+.checkbox-success {
+  width: 2em !important;
+  height: 2em !important;
+}
+
+.checkbox-success:checked {
+  background-color: var(--c-green) !important;
+  border-color: var(--c-green) !important;
+}

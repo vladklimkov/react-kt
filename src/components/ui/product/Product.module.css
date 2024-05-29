@@ -1,0 +1,13 @@
+.hide {
+  display: none;
+}
+
+.place:hover > .hide {
+  display: block;
+}
+
+/* object-fit-cover h-75 */
+.cover {
+  object-fit: cover;
+  height: 70%;
+}
